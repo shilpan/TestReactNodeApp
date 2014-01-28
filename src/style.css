@@ -19,3 +19,20 @@ h1.banner.fadeIn {
   opacity: 1;
   transition: opacity 3s ease-in;
 }
+
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.profile-card {
+  position: relative;
+  margin: 5%;
+  width: 90%;
+  height: 400px;
+  background-color: #000;
+}
+
+.extra {
+  background-color: #435;
+}

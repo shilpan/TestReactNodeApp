@@ -25,8 +25,9 @@ var index = React.createClass({
   render: function() {
     return (
       <SiteBoilerPlate>
-        <Banner bannerMessage="Welcome to React"/>
-        <VectorWidget />
+        <Skeleton>
+          <ProfileCards items={"", "extra"} />
+        </Skeleton>
       </SiteBoilerPlate>
     );
   }
