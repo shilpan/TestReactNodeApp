@@ -16,21 +16,17 @@
  * @jsx React.DOM
  */
 
+
 var React = require('React');
-var UnderScore = require('underscore');
-var Backbone = require('backbone');
-var Reactbone = require('./patch/react.backbone.js');
-var SiteBoilerPlate = require('./core/SiteBoilerPlate.js');
-var Skeleton = require('./elements/Skeleton/Skeleton.js');
-var ProfileCards = require('./elements/ProfileCards/ProfileCards.js');
+var SiteBoilerPlate = require('../core/SiteBoilerPlate.js');
+var Banner = require('../elements/Banner/Banner.js');
 
 var index = React.createClass({
+
   render: function() {
     return (
       <SiteBoilerPlate>
-        <Skeleton>
-          <ProfileCards items={["profile-card", "profile-card extra"]} />
-        </Skeleton>
+        <Banner bannerMessage="About Us"/>
       </SiteBoilerPlate>
     );
   }

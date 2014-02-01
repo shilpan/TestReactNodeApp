@@ -5,7 +5,9 @@
   "main": "index.js",
   "start": "node server.js",
   "dependencies": {
+    "underscore": "git://github.com/jashkenas/underscore.git",
     "React": "git://github.com/facebook/react.git",
+    "backbone": "git://github.com/jashkenas/backbone.git",
     "optimist": "0.6.0",
     "react-page-middleware": "git://github.com/facebook/react-page-middleware.git",
     "connect": "2.8.3"
