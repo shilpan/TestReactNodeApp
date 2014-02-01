@@ -93,5 +93,5 @@ if (!isServer) {
 
   var portToUse = port || 8080;
   http.createServer(app).listen(portToUse);
-  console.log('Open http://localhost:' + portToUse + '/index.html');
+  console.log('Open http://localhost:' + portToUse);
 }
